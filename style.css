@@ -1,0 +1,51 @@
+.section-1 {
+    height: 60vh;
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 200px 0 200px;
+}
+
+.header > .right {
+    display: flex;
+    gap: 20px;
+}
+
+.section-1 > .content {
+    display: flex;
+}
+
+.section-1 > .content > .text {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-1 > .content > .image {
+    display: flex;
+}
+
+.large-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.small-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header > .left {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+}
